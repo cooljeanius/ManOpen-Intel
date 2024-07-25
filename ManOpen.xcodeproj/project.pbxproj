@@ -776,8 +776,11 @@
 /* Begin PBXProject section */
 		D39279890821FFA400376676 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = F4F38FF70E26AAF2006DDFA8 /* Build configuration list for PBXProject "ManOpen" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownPlatforms = (
 				macos,
@@ -786,6 +789,11 @@
 				solaris,
 				hpux,
 				macintosh,
+			);
+			knownRegions = (
+				en,
+				Base,
+				English,
 			);
 			mainGroup = D39278DB0821FF9D00376676 /* ManOpen */;
 			productRefGroup = D39278ED0821FFA400376676 /* Products */;

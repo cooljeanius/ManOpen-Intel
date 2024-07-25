@@ -3,3 +3,6 @@ ManOpen.build/ProjectHeaders/ManOpenProtocol.h
 ManOpen.build/ProjectHeaders/SystemType.h
 ManOpen/cat2html.tproj/cat2html
 ManOpen/cat2rtf.tproj/cat2rtf
+*.xcuserstate
+*.xcuserdatad
+*/xcuserdata/*
