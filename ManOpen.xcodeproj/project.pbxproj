@@ -322,9 +322,9 @@
 		D39279340821FFA400376676 /* ManOpen.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = D39279330821FFA400376676 /* ManOpen.scriptTerminology */; };
 		D39279360821FFA400376676 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D39279350821FFA400376676 /* Credits.rtf */; };
 		D39279390821FFA400376676 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39279380821FFA400376676 /* InfoPlist.strings */; };
-		D392794E0821FFA400376676 /* cat2rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D39279490821FFA400376676 /* cat2rtf */; };
+		D392794E0821FFA400376676 /* cat2rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D39279490821FFA400376676 /* cat2rtf */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D39279510821FFA400376676 /* cat2rtf.c in Sources */ = {isa = PBXBuildFile; fileRef = D39279500821FFA400376676 /* cat2rtf.c */; settings = {ATTRIBUTES = (); }; };
-		D39279610821FFA400376676 /* cat2html in CopyFiles */ = {isa = PBXBuildFile; fileRef = D392795D0821FFA400376676 /* cat2html */; };
+		D39279610821FFA400376676 /* cat2html in CopyFiles */ = {isa = PBXBuildFile; fileRef = D392795D0821FFA400376676 /* cat2html */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D39279640821FFA400376676 /* cat2html.c in Sources */ = {isa = PBXBuildFile; fileRef = D39279630821FFA400376676 /* cat2html.c */; settings = {ATTRIBUTES = (); }; };
 		D39279820821FFA400376676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39279810821FFA400376676 /* Foundation.framework */; };
 		D39279830821FFA400376676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39279810821FFA400376676 /* Foundation.framework */; };
@@ -385,6 +385,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A5B8F7752C52E287009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/Apropos.nib; sourceTree = "<group>"; };
+		A5B8F7762C52E287009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/DocController.nib; sourceTree = "<group>"; };
+		A5B8F7772C52E287009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/FindPanel.nib; sourceTree = "<group>"; };
+		A5B8F7782C52E287009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/ManOpen.nib; sourceTree = "<group>"; };
+		A5B8F7792C52E287009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/ManPage.nib; sourceTree = "<group>"; };
+		A5B8F77A2C52E287009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/PrefPanel.nib; sourceTree = "<group>"; };
+		A5B8F77B2C52E288009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5B8F77C2C52E288009BE8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D314F2E60825A8F100E439E7 /* CustomInfoOSXOverrides.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; path = CustomInfoOSXOverrides.plist; sourceTree = "<group>"; };
 		D39278E10821FFA400376676 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		D39278E20821FFA400376676 /* Makefile.postamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.postamble; sourceTree = "<group>"; };
@@ -405,22 +413,13 @@
 		D392790B0821FFA400376676 /* PrefPanelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefPanelController.h; sourceTree = "<group>"; };
 		D392790D0821FFA400376676 /* SystemType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemType.h; sourceTree = "<group>"; };
 		D39279100821FFA400376676 /* ManOpen_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManOpen_main.m; sourceTree = "<group>"; };
-		D39279150821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ManPage.nib; sourceTree = "<group>"; };
-		D39279180821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PrefPanel.nib; sourceTree = "<group>"; };
-		D392791B0821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/FindPanel.nib; sourceTree = "<group>"; };
-		D392791E0821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Apropos.nib; sourceTree = "<group>"; };
-		D39279210821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ManOpen.nib; sourceTree = "<group>"; };
-		D39279220821FFA400376676 /* English - macintosh */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "English - macintosh"; path = "English.lproj/ManOpen-macintosh.nib"; sourceTree = "<group>"; };
 		D39279230821FFA400376676 /* English - macos */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "English - macos"; path = "English.lproj/ManOpen-macos.nib"; sourceTree = "<group>"; };
-		D39279260821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocController.nib; sourceTree = "<group>"; };
 		D39279280821FFA400376676 /* LinkCursor.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LinkCursor.tiff; sourceTree = "<group>"; };
 		D392792A0821FFA400376676 /* ManOpen-nextstep.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ManOpen-nextstep.tiff"; sourceTree = "<group>"; };
 		D392792C0821FFA400376676 /* ManOpen.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ManOpen.tiff; sourceTree = "<group>"; };
 		D392792F0821FFA400376676 /* ManOpen.scriptSuite */ = {isa = PBXFileReference; lastKnownFileType = text.plist.scriptSuite; path = ManOpen.scriptSuite; sourceTree = "<group>"; };
 		D39279310821FFA400376676 /* ManOpen.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ManOpen.icns; sourceTree = "<group>"; };
 		D39279330821FFA400376676 /* ManOpen.scriptTerminology */ = {isa = PBXFileReference; lastKnownFileType = text.plist.scriptTerminology; path = ManOpen.scriptTerminology; sourceTree = "<group>"; };
-		D39279370821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D392793A0821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D392793C0821FFA400376676 /* CustomInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = CustomInfo.plist; sourceTree = "<group>"; };
 		D392793D0821FFA400376676 /* h.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = h.template; sourceTree = "<group>"; };
 		D392793E0821FFA400376676 /* m.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = m.template; sourceTree = "<group>"; };
@@ -777,6 +776,7 @@
 		D39279890821FFA400376676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1320;
 			};
 			buildConfigurationList = F4F38FF70E26AAF2006DDFA8 /* Build configuration list for PBXProject "ManOpen" */;
 			compatibilityVersion = "Xcode 3.0";
@@ -793,7 +793,6 @@
 			knownRegions = (
 				en,
 				Base,
-				English,
 			);
 			mainGroup = D39278DB0821FF9D00376676 /* ManOpen */;
 			productRefGroup = D39278ED0821FFA400376676 /* Products */;
@@ -948,7 +947,7 @@
 		D39279130821FFA400376676 /* ManPage.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D39279150821FFA400376676 /* English */,
+				A5B8F7792C52E287009BE8B5 /* en */,
 			);
 			name = ManPage.nib;
 			sourceTree = "<group>";
@@ -956,7 +955,7 @@
 		D39279160821FFA400376676 /* PrefPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D39279180821FFA400376676 /* English */,
+				A5B8F77A2C52E287009BE8B5 /* en */,
 			);
 			name = PrefPanel.nib;
 			sourceTree = "<group>";
@@ -964,7 +963,7 @@
 		D39279190821FFA400376676 /* FindPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D392791B0821FFA400376676 /* English */,
+				A5B8F7772C52E287009BE8B5 /* en */,
 			);
 			name = FindPanel.nib;
 			sourceTree = "<group>";
@@ -972,7 +971,7 @@
 		D392791C0821FFA400376676 /* Apropos.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D392791E0821FFA400376676 /* English */,
+				A5B8F7752C52E287009BE8B5 /* en */,
 			);
 			name = Apropos.nib;
 			sourceTree = "<group>";
@@ -980,9 +979,8 @@
 		D392791F0821FFA400376676 /* ManOpen.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D39279210821FFA400376676 /* English */,
-				D39279220821FFA400376676 /* English - macintosh */,
 				D39279230821FFA400376676 /* English - macos */,
+				A5B8F7782C52E287009BE8B5 /* en */,
 			);
 			name = ManOpen.nib;
 			sourceTree = "<group>";
@@ -990,7 +988,7 @@
 		D39279240821FFA400376676 /* DocController.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D39279260821FFA400376676 /* English */,
+				A5B8F7762C52E287009BE8B5 /* en */,
 			);
 			name = DocController.nib;
 			sourceTree = "<group>";
@@ -998,7 +996,7 @@
 		D39279350821FFA400376676 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D39279370821FFA400376676 /* English */,
+				A5B8F77B2C52E288009BE8B5 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -1006,7 +1004,7 @@
 		D39279380821FFA400376676 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D392793A0821FFA400376676 /* English */,
+				A5B8F77C2C52E288009BE8B5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1017,6 +1015,35 @@
 		F4F38FE50E26AAF2006DDFA8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Development;
@@ -1024,15 +1051,36 @@
 		F4F38FE60E26AAF2006DDFA8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-					ppc64,
-					x86_64,
-				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 				VALID_ARCHS = "ppc64 ppc7400 ppc970 i386 x86_64 ppc";
 			};
@@ -1041,6 +1089,33 @@
 		F4F38FE70E26AAF2006DDFA8 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Default;
@@ -1048,6 +1123,7 @@
 		F4F38FE80E26AAF2006DDFA8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -1065,8 +1141,9 @@
 		F4F38FE90E26AAF2006DDFA8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -1084,6 +1161,7 @@
 		F4F38FEA0E26AAF2006DDFA8 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -1100,6 +1178,7 @@
 		F4F38FEB0E26AAF2006DDFA8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
@@ -1122,6 +1201,7 @@
 		F4F38FEC0E26AAF2006DDFA8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
@@ -1144,6 +1224,7 @@
 		F4F38FED0E26AAF2006DDFA8 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Apps";
@@ -1165,6 +1246,7 @@
 		F4F38FEE0E26AAF2006DDFA8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
@@ -1186,6 +1268,7 @@
 		F4F38FEF0E26AAF2006DDFA8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
@@ -1207,6 +1290,7 @@
 		F4F38FF00E26AAF2006DDFA8 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = "";
@@ -1227,6 +1311,7 @@
 		F4F38FF10E26AAF2006DDFA8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
@@ -1248,6 +1333,7 @@
 		F4F38FF20E26AAF2006DDFA8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
@@ -1269,6 +1355,7 @@
 		F4F38FF30E26AAF2006DDFA8 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = "";
